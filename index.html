@@ -20,7 +20,42 @@
 
 <body>
     <section  class="home" id="home">
-    <div class="container-fluid fixed-top bg-light">
+
+        <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Kevin Aarts</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">about me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">programmeertalen</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#meeuw">de meeuw?</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">portfolio</a>
+                      </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+    <!-- <div class="container-fluid fixed-top bg-light">
         <div class="container-md">
             <div class="row">
                 <div class="col-6">
@@ -47,9 +82,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
-    <div class="container-fluid background">
+    <div class="container-fluid background mt-5">
         <div class="row d-flex justify-content-center">
             <div class="col-5 m-5 fade-in-image-bottem">
                 <h1 class="text-white">Welkom
@@ -63,8 +98,9 @@
             
         </div>
     </div>
+   
     <div class="container-md">
-        <section class="about" id="about">
+        <section class="about" id="about"></section>
         <div class="row d-flex justify-content-center mt-5 fade-in-image-top ">
             <div class="col-7 text-center">
                 <h3>about me</h3>
@@ -246,9 +282,10 @@
         </div>
     </div>
     <div class="container-fluid background-blue">
+        <section class="meeuw" id="meeuw">
         <div class="row d-flex justify-content-center ">
             <div class="col-7 mt-5 text-center reveal-Right ">
-                <h3 class="text-white">Why choose us</h3>
+                <h3 class="text-white">de meeuw ?</h3>
                 <br>
                 <p class=" text-white">Lorem ipsum dolor sit amet egestas. Aliquam id tincidunt est. Vestibulum quam
                     est,
@@ -316,6 +353,7 @@
             </div>
         </div>
     </div>
+</section>
     <div class="container-md">
         <section id="portfolio">
         <div class="row">
